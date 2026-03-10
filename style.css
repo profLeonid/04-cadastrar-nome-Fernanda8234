@@ -1,14 +1,13 @@
 body{
-    background-color: rgb(255, 72, 72);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(255px);
+    background-color: rgb(224, 224, 224);
+    min-height: 100vh;
+    position: relative;
+    top: -140px;
+    right: -30%;
 }
 
 h1{
-    font-family: Courier;
+    font-family: sans-serif;
     margin: 25px;
 }
 
@@ -16,7 +15,7 @@ input{
     font-size: 20px;
     width: 500px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 button{
@@ -38,9 +37,31 @@ button:hover {
     box-shadow: 0px 0px 0px;
 }
 
-div{
-    background-color: rgb(255, 255, 255);
-    width: 600px;
-    border-radius: 4px;
-    padding: 10px;
+div.tudo {
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(350px);
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+}
+
+div.lista{
+    font-size: 20px;
+    width: 800px;
+    height: 400px;
+    padding: 2px 0 0 10px; 
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #d6d6d6 50%, #dddedd 50%);
+    background-attachment: local;
+    background-size: 100% 50px;
+    line-height: 25px; 
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    white-space: pre-line;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
 }
