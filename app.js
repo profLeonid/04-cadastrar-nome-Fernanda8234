@@ -2,7 +2,7 @@
 
 const cadastrar = document.getElementById('cadastrar')
 
-function cadastraNome () {
+function cadastraNome(){
     const nome = document.getElementById('nome')
     const listaNomes = document.getElementById('lista-nomes')
    
